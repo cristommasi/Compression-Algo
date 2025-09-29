@@ -6,24 +6,10 @@
 # include <fstream>
 # include <string>
 # include <map>
+# include <vector>
+# include <algorithm>
 
 
-struct MinHeapNode {
 
-    char data;
-
-    unsigned freq;
-
-    struct MinHeapNode *left, *right;
-};
-
-struct MinHeap {
-
-    unsigned size;
-
-    unsigned capacity;
-
-    struct MinHeapNode** array;
-};
 
 #endif
